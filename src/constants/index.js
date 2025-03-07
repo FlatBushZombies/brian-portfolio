@@ -38,7 +38,9 @@ import {
   import summarizer from "../assets/ai-summarizer.png";
   import nmeodb from "../assets/nmeodb.png";
   import xora from "../assets/xora.png";
-  
+  import cloud from "../assets/student-cloud.png";
+  import book from "../assets/book-api.png";
+
   export const navLinks = [
     {
       id: "about",
@@ -272,7 +274,28 @@ import {
         },
       ],
       image: xora,
-      source_code_link: "",
+      source_code_link: "https://brilliant-selkie-8d3439.netlify.app/",
+    },
+       {
+      name: "Book API",
+      description:
+        "Developed a robust and scalable RESTful API for managing a digital library system using NestJS. The API provides endpoints for CRUD operations on books, authors, and categories, along with advanced features like search, filtering, and pagination.",
+      tags: [
+        {
+          name: "nodejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nestjs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "REST APIs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: book,
+      source_code_link: "https://github.com/BrianMakanjira/book-api",
     },
     {
       name: "Mission Open Source Framework",
@@ -294,6 +317,27 @@ import {
       ],
       image: nmeodb,
       source_code_link: "https://deluxe-stroopwafel-58d196.netlify.app/",
+    },
+    {
+      name: "Student Cloud",
+      description:
+        "Developed a cloud-based platform using Typescript Appwrite, and OAuth,  to provide students with secure file storage, collaboration tools, and authentication features.",
+      tags: [
+        {
+          name: "typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OAuth",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Appwrite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cloud,
+      source_code_link: "https://github.com/FlatBushZombies/student-cloud",
     }
   ];
   
