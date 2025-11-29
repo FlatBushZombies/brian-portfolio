@@ -13,19 +13,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs
   } from "../assets";
 
   import free from "../assets/freecopy_logo.png";
   import camp from "../assets/camp.png";
-  import vuejs from "../assets/vuejs.svg";
   import sqlite from "../assets/sqlite.svg";
 
   import cpp from "../assets/langs/cplusplus.svg";
@@ -40,6 +32,9 @@ import {
   import xora from "../assets/xora.png";
   import cloud from "../assets/student-cloud.png";
   import book from "../assets/book-api.png";
+  import qkd from "../assets/qkd.jpg";
+  import fastapi from "../assets/fastapi.png";
+  import share from "../assets/social-share.png"
 
   export const navLinks = [
     {
@@ -338,7 +333,72 @@ import {
       ],
       image: cloud,
       source_code_link: "https://github.com/FlatBushZombies/student-cloud",
-    }
+    },
+     {
+      name: "ciag.xy",
+      description:
+        "QKD Infrastucture.The next-generation hybrid oracle network secured by post-quantum cryptography and built for the future quantum internet.",
+      tags: [
+        {
+          name: "quantum",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "blockchain",
+          color: "green-text-gradient",
+        },
+        {
+          name: "security",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: qkd,
+      source_code_link: "https://ciag-xyz.vercel.app/",
+    },
+     {
+      name: "Book API",
+      description:
+        "Book API spin-up with FASTAPI and SQL Alchemy",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "fastapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "postgresql",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fastapi,
+      source_code_link: "https://github.com/FlatBushZombies/bookAPI-fastapi",
+    },
+    {
+      name: "Chitamrita",
+      description:
+        "Designed production ready UI/UX for a Moscow-based social sharing startup that connects user using online dates and short-form content",
+      tags: [
+        {
+          name: "react-native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "clerk-auth",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: share,
+      source_code_link: "https://github.com/FlatBushZombies/chitamrita",
+    },
+    
+    
   ];
   
   export { services, technologies, experiences , projects };

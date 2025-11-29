@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+
 import { styles } from "../styles";
 import rr2 from '../assets/spiral.svg';
 
