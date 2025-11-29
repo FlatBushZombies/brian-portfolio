@@ -335,7 +335,7 @@ import {
       source_code_link: "https://github.com/FlatBushZombies/student-cloud",
     },
      {
-      name: "ciag.xy",
+      name: "ciag.xyz",
       description:
         "QKD Infrastucture.The next-generation hybrid oracle network secured by post-quantum cryptography and built for the future quantum internet.",
       tags: [
